@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 70%;
+    background-image: url(../img/productlandingpagebackground.jpg);
+    margin: auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+header, #maincontent, #video-container, .pricing, #pricing-align, form, footer{
+    text-align: center;
+}
+header, #maincontent, #video-container, .pricing{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 5px;
+}
+header{
+    overflow: auto;
+}
+header img{
+    float: left;
+}
+nav{
+    font-size: 15px;
+    float: right;
+    padding: 15px;
+}
+.navbtn, .buybtn{
+    background-color: rgb(82, 176, 253);
+    padding: 6px;
+    border-radius: 5px;
+}
+:hover.navbtn{
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+}
+.buybtn{
+    margin: 8px 0px 8px 0px;
+    box-shadow: 0px 0px 2px 1px rgb(118, 118, 255);
+}
+:hover.buybtn{
+    box-shadow: 0px 0px 5px 3px rgb(118, 118, 255);
+}
+#squattypottyheader{
+    height: 50px;
+    width: 230px;
+}
+header, section, .pricing, header ul li{
+    margin: 25px;
+}
+header ul li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+li{
+    list-style: none;
+}
+#maincontent{
+    padding: 25px;
+}
+.pricing{
+    display: inline-block;
+    width: 20%;
+}
+#squattypottyimg{
+    height:auto;
+    width:60%;
+}
+#video-container{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+#iframe-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+/* Mobile and tablet friendly*/
+@media only screen and (max-width: 955px){
+    body{
+        width: 100vw; 
+    }
+}

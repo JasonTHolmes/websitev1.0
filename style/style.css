@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+@font-face{
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+body{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    background: #9ef5ef;
+}
+h1{
+    font-size: 4vw;
+    font-family: "Montserrat-Bold";
+}
+h2{
+    font-size: 3vw;
+    font-family: "Montserrat-Bold";
+}
+footer, nav li{
+    font-size: 1.5vw;
+}
+p, a{
+    font-family: "Montserrat-Regular"
+}
+p{
+    letter-spacing: 23px;
+}
+header{
+    z-index: 1;
+    background: #ff6600;
+    position: fixed;
+    width: inherit;
+    padding: 5px;
+    border: 2px solid black;
+}
+nav li{
+    word-spacing: 50px; 
+    display: inline-block;
+}
+nav li a{
+    margin: 30px;
+}
+#welcome-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.project-icon, .cert-icon, .contact-icon, .skill-icon{
+    margin:30px;
+    border-radius: 50%;
+    height: 10vw;
+    width: 10vw;
+    border: 2px solid black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.intro li{
+    display: inline-block;
+}
+ul{
+    text-align: center;
+    list-style: none;
+}
+.intro{
+    padding-top: 150px;
+    height: 81vh;
+}
+.intro h2{
+    padding-bottom: 70px;
+}
+#current{
+    text-shadow: 0px 0px 20px #9ef5ef;
+    color: #9ef5ef;
+}
+img:hover{
+    box-shadow: 0px 0px 30px 7px rgb(255, 234, 234);
+    border: 2px solid rgb(255, 255, 255);
+}
+a:hover{
+    text-shadow: 0px 0px 20px #9ef5ef;
+    color: #9ef5ef;
+}
+/*Mobile phone Layout Start*/
+@media only screen and (max-width: 550px){
+    body{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        background: #9ef5ef;
+    }
+    h1{
+        font-size: 15vw;
+    }
+    h2{
+        font-size: 10vw;
+    }
+     nav li{
+              
+        word-spacing: 50px; 
+        display: inline;
+    }
+    nav li a{
+        font-size:6vw; 
+        margin: 0;
+        padding: 4px;
+        display: block;
+    }
+    footer{
+        font-size:4.5vw
+    }
+    p{
+        letter-spacing: 13px;
+    }
+    header{
+        z-index: 1;
+        background: #ff6600;
+        position: fixed;
+        width: inherit;
+        padding: 5px;
+        border: 2px solid black;
+    }
+    #welcome-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+    .project-icon, .cert-icon, .contact-icon, .skill-icon{
+        margin:15px;
+        border-radius: 50%;
+        height: 22vw;
+        width: 22vw;
+        border: 2px solid black;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .intro li{
+        display: inline-block;
+    }
+    ul{
+        text-align: center;
+        list-style: none;
+    }
+    .intro{
+        padding-top: 70%;
+        height: 65vh;
+    }
+    .intro h2{
+        padding-bottom: 70px;
+    }
+}

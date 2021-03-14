@@ -1,0 +1,67 @@
+*{
+  text-align: center;
+}
+body{
+    background-color: lightblue;
+  }
+  #survey-form{
+    margin: auto;
+    width: 900px;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+  }
+  h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: darkblue;
+  }
+  label{
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: auto;
+    padding: 7px;
+    text-align: center;
+    display: block;
+    color: darkblue;
+  }
+  input{
+    display: block;
+    border: solid 2px darkblue;
+    background: rgb(25, 245, 255);
+    padding: 15px;
+    margin: auto;
+    border-radius: 6px;
+  }
+  #submitbtn{
+    margin-top: 10px;
+    background-color: lightgrey;
+  }
+  #submitbtn:hover{
+    background-color: beige;
+  }
+  ::placeholder{
+    color: grey;
+  }
+  footer{
+    margin-top:10px;
+    text-align: center;
+  }
+  #div-select{
+    text-align: center;
+  }
+  select{
+  background-color: rgb(25, 245, 255);
+  height: 49px;
+  width: 203px;
+  border: solid 2px darkblue;
+  border-radius: 6px;
+  }
+  .multi-choice{
+   display: inline-block;
+  }
+  .label-input{
+    float: left;  }
+.clearfix{
+  clear: both;
+}

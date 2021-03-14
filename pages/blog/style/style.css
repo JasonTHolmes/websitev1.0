@@ -1,0 +1,18 @@
+body{
+    width: 70%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+code{
+    background: rgb(179, 178, 178);
+}
+footer{
+    text-align: center;
+}

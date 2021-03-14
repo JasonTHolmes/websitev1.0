@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job Application</title>
+    <link href="../../style/style.css" type="text/css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+      <h1 id="title">Job Application</h1>
+    </header>
+    <form action="../page4/index.html" id="survey-form">
+      <label for="social-security-number">Social Security Number</label>
+      <input type="text" name="social-security-number" id="social-security-number" placeholder="***-**-****">
+      <label for="date-available">Date Available</label>
+      <input type="text" name="date-available" id="date-available" placeholder="Date Available">
+      <label for="desired-salary">Desired Salary</label>
+      <input type="text" name="desired-salary" id="desired-salary" placeholder="Desired Salary">
+      <label for="position-applying-for">Position Applying For</label>
+      <input type="text" name="position-applying-for" id="position-applying-for" placeholder="Position Applying for">
+
+      <label>What type of employment are you seeking?</label>      
+      <div class="multi-choice">
+        <div class="label-input">
+          <label for="type-full">Full-Time
+            <input type="radio" id="type-full" name="employment-type">
+          </label>
+        </div>
+        <div class="label-input">
+          <label for="type-part">Part-Time
+            <input type="radio" id="type-part" name="employment-type">
+          </label>
+        </div>
+        <div class="label-input">
+          <label for="type-seasonal">Seasonal
+            <input type="radio" id="type-seasonal" name="employment-type">
+          </label>
+        </div>
+        <div class="label-input">
+          <label for="type-temp">Temporary
+            <input type="radio" id="type-temp" name="employment-type">
+          </label>
+        </div>
+      </div>
+      <div id="clearfix"></div>
+
+      <label>Are you a citizen of the United States?</label>
+      <div class="multi-choice">
+        <div class="label-input">
+          <label for="citizen-yes">yes
+            <input type="radio" id="citizen-yes" name="citizen">
+          </label>
+        </div>
+        <div class="label-input">
+          <label for="citizen-no">No
+            <input type="radio" id="citizen-no" name="citizen">
+          </label>
+        </div>
+      </div>
+      <div id="clearfix"></div>
+
+      <label>If no, are you authorized to work in the United States?</label>
+      <div class="multi-choice">
+        <div class="label-input">
+          <label for="authorized-yes">Yes
+            <input type="radio" id="authorized-yes" name="authorized">
+          </label>
+        </div>
+        <div class="label-input">
+          <label for="authorized-no">No
+            <input type="radio" id="authorized-no" name="authorized">
+          </label>
+        </div>
+      </div>
+      <div id="clearfix"></div>
+
+      <label>Have you ever worked for this company?</label>
+      <div class="multi-choice">
+        <div class="label-input">
+          <label for="ever-yes">Yes
+            <input type="radio" id="ever-yes" name="ever-worked">
+          </label>
+        </div>
+        <div class="label-input">
+          <label for="ever-no">No
+            <input type="radio" id="ever-no" name="ever-worked">
+          </label>
+        </div>
+      </div>
+      <div id="clearfix"></div>
+
+      <label>If so, when?</label>
+      <div class="multi-choice">
+        <div class="label-input">
+          <label>From</label>
+          <input type="date">
+        </div>
+        <label>-</label>
+        <div class="label-input">
+          <label>To</label>
+          <input type="date">
+        </div>
+      </div>
+      <div id="clearfix"></div>
+
+      <label>Are you currently employed?</label>
+      <div class="multi-choice">
+        <div class="label-input">
+          <label for="current-yes">Yes
+            <input type="radio" id="current-yes" name="currently">
+          </label>
+        </div>
+        <div class="label-input">
+          <label for="current-no">No
+            <input type="radio" id="current-no" name="currently">
+          </label>
+        </div>
+      </div>
+      <div id="clearfix"></div>
+
+      <label>If so, may we contact your employer?</label>
+      <div class="multi-choice">
+        <div class="label-input">
+          <label for="contact-yes">Yes
+            <input type="radio" id="contact-yes" name="contact-employer">
+          </label>
+        </div>
+        <div class="label-input">
+          <label for="contact-no">No
+            <input type="radio" id="contact-no" name="contact-employer">
+          </label>
+        </div>
+      </div>
+      <div id="clearfix"></div>
+      <input type="submit" name="submit" id="submitbtn">
+      </form>
+    <footer>Copyright &copy; 2018 <a href="https://www.JasonThomasHolmes.com">Jason Thomas Holmes</a> Designs</footer>
+  </body>
+</html>
